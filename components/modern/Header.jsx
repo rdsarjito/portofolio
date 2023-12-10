@@ -31,11 +31,11 @@ const Header = () => {
 
   return (
     <header className="">
-      <div className="fixed m-10 hidden font-light opacity-90 min:block">
+      <div className="min:block fixed m-10 hidden font-light opacity-90">
         <a href="#" className={navLink + " pt-0 " + navActive}>
           <span className="relative overflow-hidden">
             Keshav
-            <span className="h-0.5 w-3 absolute -left-5 top-2 bg-neutral-600"></span>
+            <span className="absolute -left-5 top-2 h-0.5 w-3 bg-neutral-600"></span>
           </span>
         </a>
         <a href="#" className={navLink}>
@@ -52,7 +52,7 @@ const Header = () => {
         </a>
       </div>
       <button
-        className="flex fixed top-8 right-9 z-50 space-x-2 min:hidden"
+        className="min:hidden fixed right-9 top-8 z-50 flex space-x-2"
         onClick={() => toggle(true)}
       >
         <svg
@@ -76,7 +76,7 @@ const Header = () => {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="flex w-screen text-white fixed bg-black z-50 pl-8 overflow-hidden border-l border-min-b"
+            className="fixed z-50 flex w-screen overflow-hidden border-l border-min-b bg-black pl-8 text-white"
             initial={{ height: 0 }}
             animate={{ height: "100%", transition: { duration: 0.6 } }}
             exit={{
@@ -85,7 +85,7 @@ const Header = () => {
             }}
           >
             <motion.ul
-              className="flex font-times flex-col flex-auto border-l border-min-b"
+              className="flex flex-auto flex-col border-l border-min-b font-times"
               initial="closed"
               animate="open"
               exit="closed"
@@ -93,7 +93,7 @@ const Header = () => {
             >
               {navLinks.map(({ title, to }) => (
                 <li key={title} className="border-y border-min-b">
-                  <a className="flex items-center overflow-clip pl-3 my-[7.5vh] text-[10vh] leading-none">
+                  <a className="my-[7.5vh] flex items-center overflow-clip pl-3 text-[10vh] leading-none">
                     <motion.span variants={itemVariants} href={to}>
                       {title}
                     </motion.span>
@@ -101,14 +101,14 @@ const Header = () => {
                 </li>
               ))}
             </motion.ul>
-            <div className="h-full w-32 border-l font-sans border-min-b ">
+            <div className="h-full w-32 border-l border-min-b font-sans ">
               <button
-                className="w-full py-8 border-b border-min-b"
+                className="w-full border-b border-min-b py-8"
                 onClick={() => toggle(false)}
               >
                 X Close
               </button>
-              <div className="flex flex-col h-full pb-[20vh] gap-y-10 justify-center items-center">
+              <div className="flex h-full flex-col items-center justify-center gap-y-10 pb-[20vh]">
                 {socials.map((el) => {
                   return (
                     <a className="social-ball" key={el.title} href="">

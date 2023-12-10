@@ -1,4 +1,4 @@
-import Accordion from "components/minimal/Accordion";
+import Accordion from "components/modern/Accordion";
 
 export default function TechStack() {
   return (

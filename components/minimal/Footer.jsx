@@ -1,30 +1,53 @@
-import { socials } from "utils/constants";
+"use client";
+import { useState } from "react";
+import { cn } from "utils";
 
 export default function Footer() {
+  const [showMsg, setShowMsg] = useState(false);
+
+  const copyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText("k3sha7@gmail.com");
+      setShowMsg(true);
+      setTimeout(() => setShowMsg(false), 2000);
+    } catch (e) {
+      console.error("failed to copy!!");
+    }
+  };
+
   return (
-    <div className="bg-black fixed w-screen -z-10 bottom-0 text-white grid grid-cols-4 px-8 min:px-10">
-      <div className="border-b border-min-b hidden min:block"></div>
-      <div className="pl-3 text-m2 font-light py-32 border-l border-b border-min-b col-span-4 min:col-span-3">
-        <h2 className="leading-none">Let`s get in Touch</h2>
-        <a className="font-times border-b-2 border-white">Contact me</a>
+    <footer className="w-full bg-black px-20 py-12 text-white">
+      <div className="mx-auto max-w-[1140px] px-20">
+        <h2 className="text-2xl">Let's get in Touch</h2>
+        <p
+          style={{ display: "flex" }}
+          className="link group mt-4 items-center pb-1"
+          onClick={copyEmail}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            className="mr-1 h-5 transition-transform duration-500 group-hover:rotate-45"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="1.7"
+            viewBox="0 0 24 24"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <path d="M17 7 7 17M8 7h9v9" />
+          </svg>
+          k3sha7@gmail.com
+          <span
+            className={cn(
+              "text-lack invisible absolute -right-24 rounded-md bg-neutral-500 p-2 text-white transition delay-500",
+              { visible: showMsg }
+            )}
+          >
+            Copied 😉
+          </span>
+        </p>
       </div>
-      <div className="hidden min:block"></div>
-      <div className="pl-3 flex justify-between font-light pt-6 pb-20 border-l border-min-b col-span-4 min:col-span-3">
-        <div>
-          <p>Reach out for collaboration or say hi at</p>
-          <p className="inline border-b border-white">k3sha7@gmail.com</p>
-        </div>
-        <div className="flex justify-center items-center space-x-2">
-          {socials.map((el) => {
-            if (el.title === "email") return;
-            return (
-              <a key={el.title} href="">
-                {el.img}
-              </a>
-            );
-          })}
-        </div>
-      </div>
-    </div>
+    </footer>
   );
 }
