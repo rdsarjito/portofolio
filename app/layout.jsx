@@ -1,6 +1,6 @@
-import { Inter } from "next/font/google";
 import clsx from "clsx";
-import Cursor from "components/main/Cursor";
+import Cursor from "components/Cursor";
+import { Inter } from "next/font/google";
 import "./global.css";
 
 const inter = Inter({ subsets: ["latin"] });

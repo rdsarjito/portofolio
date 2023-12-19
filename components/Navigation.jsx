@@ -1,6 +1,5 @@
 "use client";
-import clsx from "clsx";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { cn } from "utils/cn";
 
 const sections = [
@@ -11,7 +10,6 @@ const sections = [
 
 const Navigation = () => {
   const [activeLink, setActiveLink] = useState("");
-  console.log(activeLink);
 
   useEffect(() => {
     const handleScroll = () => {

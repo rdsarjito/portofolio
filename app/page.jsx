@@ -5,7 +5,7 @@ import {
   Footer,
   Hero,
   Projects,
-} from "components/main";
+} from "components";
 
 export default function Page() {
   return (

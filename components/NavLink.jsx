@@ -4,7 +4,7 @@ import Link from "next/link";
 const Arrow = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="ml-1 inline-block h-5 transition-transform duration-300 group-hover:-rotate-45"
+    className="mb-1 ml-1 inline-block h-5 transition-transform duration-300 group-hover/arrow:-rotate-45 group-hover:text-teal-400"
     stroke="currentColor"
     fill="none"
     strokeLinecap="round"
@@ -20,7 +20,7 @@ const Arrow = () => (
 const NavLink = ({ href, children, underline = false }) => {
   return (
     <Link
-      className="group font-medium text-slate-200 hover:text-teal-400 focus-visible:text-teal-400"
+      className="group/arrow group font-medium text-slate-200 focus-visible:text-teal-400 group-hover:text-teal-400"
       target="_blank"
       href={href}
     >
