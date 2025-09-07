@@ -37,21 +37,21 @@ const Hero = () => {
     <section className="justify-between pb-12 pt-24 lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-1/2 lg:flex-col lg:py-24">
       <div>
         <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
-          Keshav Kannan
+          Ramadhani Nur Sarjito
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Software Engineer / Full-Stack Developer
+          Full-Stack Developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          I build exceptional and accessible digital experiences for the web.
+          I design and build scalable, maintainable, and secure full-stack applications.
         </p>
         <Navigation />
       </div>
       <div className="mt-12 flex gap-4 lg:mt-16 lg:gap-6">
-        <Link target="_blank" href="https://github.com/k3sha7">
+        <Link target="_blank" href="https://github.com/rdsarjito">
           <Github />
         </Link>
-        <Link target="_blank" href="https://www.linkedin.com/in/keshavk37">
+        <Link target="_blank" href="https://www.linkedin.com/in/ramadhani-nur-sarjito">
           <Linkedin />
         </Link>
         <Link href="mailto:keshav.kn73@gmail.com">

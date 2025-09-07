@@ -6,9 +6,9 @@ import "./global.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Keshav Kannan",
+  title: "Ramadhani Nur Sarjito",
   description:
-    "Keshav Kannan's portfolio website, chennai, web developer, software engineer, frontend developer and fullstack development",
+    "Ramadhani Nur Sarjito portfolio website, web developer, software engineer, frontend developer and fullstack development",
 };
 
 export default function RootLayout({ children }) {
