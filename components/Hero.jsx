@@ -54,7 +54,7 @@ const Hero = () => {
         <Link target="_blank" href="https://www.linkedin.com/in/ramadhani-nur-sarjito">
           <Linkedin />
         </Link>
-        <Link href="mailto:keshav.kn73@gmail.com">
+        <Link href="rama09n@gmail.com">
           <Email />
         </Link>
       </div>
