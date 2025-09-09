@@ -12,7 +12,7 @@ const Experience = () => {
         <div className="sm:col-span-6">
           <NavLink href="https://vgts.tech/">
             <div className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
-            Software Engineer - VGTS
+            Full Stack Developer - Traspac
           </NavLink>
           <p className="text-sm font-medium text-slate-500">
             Jr. Software Engineer
