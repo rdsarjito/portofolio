@@ -8,41 +8,22 @@ const keyStyle = "";
 const About = () => {
   return (
     <section id="about" className="lg:pt-20">
-      <Header title="About" />
       <p className="mb-4">
-        My journey began during the lockdown of 2020. What started as a
-        <BoldFont text="curiosity" /> turned into a<BoldFont text="passion" />,
-        leading me to the exciting world of web development. Fast forward to
-        today, and I find myself crafting innovative and sleek
-        <BoldFont text="Web applications" />.
+        Hello! I’m Rama, and my journey in coding started in 2019 when I was inspired by my older brother. 
+        However, it was the encouragement from lecturers on 
+        <BoldFont text="campus in 2021 " /> that made me really focus and be consistent in learning. 
+        Since then, I have become increasingly interested in exploring various aspects of the programming world.
       </p>
       <p className="mb-4">
-        I have professional experience using
-        <BoldFont text="React " />
-        with
-        <BoldFont text="Next.js " />
-        and
-        <BoldFont text="Vue " />
-        with
-        <BoldFont text="Nuxt.js " />
-        to create responsive designs and animations for front-end and use
-        <BoldFont text="Express " />
-        with
-        <BoldFont text="PostgreSQL " />
-        and
-        <BoldFont text="MongoDB " />
-        for back-end development.
+        I started by learning <BoldFont text="Python" />, but soon realized that I was more interested in user interfaces. 
+        This led me to switch to frontend web development. Mastering <BoldFont text="HTML" />, <BoldFont text="CSS" />, and
+        <BoldFont text="JavaScript" /> became my priority, 
+        and I started exploring different technologies that support the creation of engaging and interactive web applications.
       </p>
       <p className="mb-4">
-        Recently i have been learning the ropes of <BoldFont text="Svelte" />,
-        <BoldFont text="Go" />, and micro-transitions (<BoldFont text="CSS " />
-        , <BoldFont text="Motion " />, <BoldFont text="GSAP " />
-        ), it's like a whole new playground for building interactive experience.
-      </p>
-      <p>
-        When I'm not typing away, you'll catch me leveling up in PC games,
-        working out, catching up on anime, doing culinary experiments, chilling
-        with friend or petting strays.
+        Currently, I`m developing into fullstack <BoldFont text="JavaScript" /> and <BoldFont text="TypeScript" />, 
+        focusing on <BoldFont text="frontend" /> and <BoldFont text="backend" /> development as a whole. 
+        I love learning new things every day and am always open to feedback to keep growing and improving my skills.
       </p>
     </section>
   );
