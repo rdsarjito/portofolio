@@ -11,14 +11,6 @@ const certs = [
     title: "Javascript Data structure and Algorithm",
     url: "https://www.freecodecamp.org/certification/keshavk/javascript-algorithms-and-data-structures",
   },
-  {
-    title: "Data Visualization using D3",
-    url: "https://www.freecodecamp.org/certification/keshavk/data-visualization",
-  },
-  {
-    title: "Duolingo English Proficiency",
-    url: "https://certs.duolingo.com/9e0b14cafc9e5b80916539ca040bad1c",
-  },
 ];
 
 const LinkSvg = () => {
