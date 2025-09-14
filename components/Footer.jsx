@@ -16,24 +16,7 @@ const SimpleLink = ({ href, text }) => {
 const Footer = () => {
   return (
     <footer className="max-w-md pt-24 text-sm text-slate-500">
-      <p>
-        Built with
-        <SimpleLink href="https://nextjs.org/" text="Next.js" />
-        and
-        <SimpleLink href="https://tailwindcss.com/" text="Tailwind CSS," />
-        deployed with
-        <SimpleLink href="https://vercel.com/" text="Vercel." />
-        All text is set in the
-        <SimpleLink href="/https://rsms.me/inter/" text="Inter" />
-        typeface. Awesomely designed by
-        <SimpleLink
-          href="https://www.linkedin.com/in/bchiang7/"
-          text="Brittany Chiang"
-        />
-        and coded in
-        <SimpleLink href="https://code.visualstudio.com/" text="VS Code" />
-        by yours truly.
-      </p>
+
     </footer>
   );
 };

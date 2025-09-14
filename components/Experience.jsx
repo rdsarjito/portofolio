@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="card-overlay" />
         <div className="mt-[6px] text-xs sm:col-span-2">Jan 2025 - Sep 2025</div>
         <div className="sm:col-span-6">
-          <NavLink href="https://vgts.tech/">
+          <NavLink href="https://www.linkedin.com/company/pt-bank-rakyat-indonesia-persero-tbk/">
             <div className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
             Full Stack Developer - BRI MarCom
           </NavLink>
@@ -46,7 +46,7 @@ const Experience = () => {
         <div className="card-overlay" />
         <div className="mt-[6px] text-xs sm:col-span-2">Feb 2024 - May 2024</div>
         <div className="sm:col-span-6">
-          <NavLink href="https://vgts.tech/">
+          <NavLink href="https://www.linkedin.com/company/pt.-traspac-makmur-sejahtera/">
             <div className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
             Full Stack Developer - Traspac
           </NavLink>
@@ -80,7 +80,7 @@ const Experience = () => {
         <div className="card-overlay" />
         <div className="mt-[6px] text-xs sm:col-span-2">Feb 2019 - Apr 2019</div>
         <div className="sm:col-span-6">
-          <NavLink href="https://vgts.tech/">
+          <NavLink href="https://www.linkedin.com/company/daarulquran/">
             <div className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
             Front End Web Developer - PPPA Daarul Qur'an
           </NavLink>
@@ -95,9 +95,9 @@ const Experience = () => {
           ]} />
         </div>
       </div>
-      <NavLink href="/resume.pdf" underline>
+      {/* <NavLink href="/resume.pdf" underline>
         View Full Resume
-      </NavLink>
+      </NavLink> */}
     </section>
   );
 };

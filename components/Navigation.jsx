@@ -5,7 +5,7 @@ import { cn } from "utils/cn";
 const sections = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
-  { id: "projects", label: "Projects" },
+  // { id: "projects", label: "Projects" },
 ];
 
 const Navigation = () => {

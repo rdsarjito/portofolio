@@ -15,8 +15,8 @@ export default function Page() {
         <div className="mb-16 lg:mb-24 lg:w-1/2">
           <About />
           <Experience />
-          <Projects />
-          <Certifications />
+          {/* <Projects /> */}
+          {/* <Certifications /> */}
           <Footer />
         </div>
       </div>
