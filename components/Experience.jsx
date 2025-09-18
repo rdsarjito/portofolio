@@ -98,9 +98,9 @@ const Experience = () => {
           ]} />
         </div>
       </div>
-      {/* <NavLink href="/resume.pdf" underline>
+      <NavLink href="/resume.pdf" underline>
         View Full Resume
-      </NavLink> */}
+      </NavLink>
     </section>
   );
 };
