@@ -48,16 +48,6 @@ const projects = [
     image: "/d-budget.png",
     tags: ["React", "Redux", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Chart.js", "Google Auth"]
   },
-  
-  {
-    title: "Portfolio",
-    description:
-      "A Portfolio site built on NextJs to show case the thing I am working on.",
-    link: "https://github.com/k3sha7/portfolio#readme",
-    image: "/portfolio.webp",
-    tags: ["Next.js", "React", "Tailwind CSS", "JavaScript"]
-  },
-
 ];
 
 const Showcase = ({ project }) => {
@@ -97,6 +87,9 @@ const Projects = () => {
           <Showcase key={project.title} project={project} />
         ))}
       </div>
+      <NavLink href="https://github.com/rdsarjito" underline>
+        View Full Project Archive
+      </NavLink>
     </section>
   );
 };
