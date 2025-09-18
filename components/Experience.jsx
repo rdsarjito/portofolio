@@ -24,12 +24,15 @@ const Experience = () => {
             "TypeScript", 
             "Next.js", 
             "React", 
-            "Tailwind CSS", 
-            "Radix UI"
+            "TypeScript", 
           ]} />
           <Tags tags={[
+            "Next.js", 
+            "React", 
             "Socket.IO", 
             "Bun", 
+          ]} />
+          <Tags tags={[
             "Elysia", 
             "MySQL", 
             "JWT", 
