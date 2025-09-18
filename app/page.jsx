@@ -15,14 +15,16 @@ export default function Page() {
         <Hero />
         <div className="mb-16 lg:mb-24 lg:w-1/2">
           <div className="mb-8 flex justify-center lg:pt-20">
-            <Image
-              src="/rama.png"
-              alt="Ramadhani Nur Sarjito"
-              width={384}
-              height={384}
-              priority
-              className="h-96 w-96 rounded-full object-cover border border-slate-700"
-            />
+            <div className="relative aspect-square w-full max-w-[10rem] sm:max-w-[14rem] md:max-w-[18rem] lg:max-w-[24rem]">
+              <Image
+                src="/rama.png"
+                alt="Ramadhani Nur Sarjito"
+                fill
+                priority
+                sizes="(max-width: 640px) 10rem, (max-width: 768px) 14rem, (max-width: 1024px) 18rem, 24rem"
+                className="rounded-full object-cover border border-slate-700"
+              />
+            </div>
           </div>
           <About />
           <Experience />
