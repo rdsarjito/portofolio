@@ -81,7 +81,7 @@ const Showcase = ({ project }) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="p-section">
+    <section id="projects" className="p-section cursor-pointer">
       <div className="mt-2">
         {projects.map((project) => (
           <Showcase key={project.title} project={project} />

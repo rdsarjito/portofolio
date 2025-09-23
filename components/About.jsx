@@ -7,7 +7,7 @@ const keyStyle = "";
 
 const About = () => {
   return (
-    <section id="about" className="lg:pt-20">
+    <section id="about" className="lg:pt-20 cursor-pointer">
       <p className="mb-4">
         Hello! I’m Rama, and my journey in coding started in 2019 when I was inspired by my older brother. 
         However, it was the encouragement from lecturers on 

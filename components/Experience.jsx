@@ -3,7 +3,7 @@ import Tags from "./Tags";
 
 const Experience = () => {
   return (
-    <section id="experience" className="p-section">
+    <section id="experience" className="p-section cursor-pointer">
       <div className="card group mt-3">
         <div className="card-overlay" />
         <div className="mt-[6px] text-xs sm:col-span-2">Jan 2025 - Sep 2025</div>

@@ -36,7 +36,7 @@ const Navigation = () => {
           key={id}
           onClick={() => onClick(id)}
           className={cn(
-            "group flex w-fit items-center py-3 text-xs font-bold tracking-widest text-slate-500 hover:text-slate-200 focus-visible:text-slate-200",
+            "group flex w-fit items-center py-3 text-xs font-bold tracking-widest text-slate-500 hover:text-slate-200 focus-visible:text-slate-200 cursor-pointer",
             {
               "text-slate-200": activeLink === id,
             }
