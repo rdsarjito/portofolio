@@ -21,8 +21,12 @@ export default function Page() {
                 alt="Ramadhani Nur Sarjito"
                 fill
                 priority
-                sizes="(max-width: 640px) 10rem, (max-width: 768px) 14rem, (max-width: 1024px) 18rem, 24rem"
+                quality={95}
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 224px, (max-width: 1024px) 288px, 384px"
                 className="rounded-full object-cover border border-slate-700"
+                style={{
+                  objectPosition: 'center top'
+                }}
               />
             </div>
           </div>
