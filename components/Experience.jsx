@@ -6,6 +6,22 @@ const Experience = () => {
     <section id="experience" className="p-section cursor-pointer">
       <div className="card group mt-3">
         <div className="card-overlay" />
+        <div className="mt-[6px] text-xs sm:col-span-2">Oktober 2025 - Desember 2025</div>
+        <div className="sm:col-span-6">
+          <NavLink href="https://www.linkedin.com/company/pt-bank-rakyat-indonesia-persero-tbk/">
+            <div className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
+            Full Stack Developer - Sucofindo
+          </NavLink>
+          <p className="mt-3 text-sm">
+            -
+          </p>
+          <Tags tags={[
+            "Laravel", 
+          ]} />
+        </div>
+      </div>
+      <div className="card group mt-3">
+        <div className="card-overlay" />
         <div className="mt-[6px] text-xs sm:col-span-2">Jan 2025 - Sep 2025</div>
         <div className="sm:col-span-6">
           <NavLink href="https://www.linkedin.com/company/pt-bank-rakyat-indonesia-persero-tbk/">
