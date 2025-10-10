@@ -16,7 +16,7 @@ const Experience = () => {
             -
           </p>
           <Tags tags={[
-            "Laravel", 
+            "Laravel", "MySQL"
           ]} />
         </div>
       </div>
