@@ -13,7 +13,11 @@ const Experience = () => {
             Full Stack Developer - Sucofindo
           </NavLink>
           <p className="mt-3 text-sm">
-            -
+            Developed and maintained a comprehensive web application for managing
+            inspection and certification processes, including scheduling, reporting,
+            and user management. Collaborated with cross-functional teams to gather
+            requirements, design system architecture, and implement features using
+            modern web technologies.
           </p>
           <Tags tags={[
             "Laravel", "MySQL"
