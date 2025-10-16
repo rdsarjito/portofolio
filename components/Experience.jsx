@@ -13,11 +13,11 @@ const Experience = () => {
             Full Stack Developer - Sucofindo
           </NavLink>
           <p className="mt-3 text-sm">
-            Developed and maintained a comprehensive web application for managing
-            inspection and certification processes, including scheduling, reporting,
-            and user management. Collaborated with cross-functional teams to gather
-            requirements, design system architecture, and implement features using
-            modern web technologies.
+            Developed and maintained a full-featured web platform for inspection and certification workflows, 
+            covering scheduling, reporting, and role-based user management. Led requirements discovery with cross-functional teams, 
+            designed scalable system architecture, and implemented features using modern web technologies (Laravel, MySQL, REST APIs, queues, 
+            PDF/Excel exports, and Docker). Optimized performance, ensured data integrity and auditability, and delivered 
+            automated notifications and analytics to improve operational efficiency.
           </p>
           <Tags tags={[
             "Laravel", "MySQL"
