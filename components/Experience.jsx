@@ -6,6 +6,47 @@ const Experience = () => {
     <section id="experience" className="p-section cursor-pointer">
       <div className="card group mt-3">
         <div className="card-overlay" />
+        <div className="mt-[6px] text-xs sm:col-span-2">Januari 2026 - Sekarang</div>
+        <div className="sm:col-span-6">
+          <NavLink href="https://www.linkedin.com/company/keretacepatindonesiachina/">
+            <div className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
+            Full Stack Developer & Mobile Application Developer - KCIC
+          </NavLink>
+          <p className="mt-3 text-sm">
+            Developed and maintained a comprehensive operational platform for Indonesia's high-speed railway (Whoosh), 
+            encompassing a web-based dashboard for real-time device monitoring, station management, and passenger flow analytics. 
+            Built a cross-platform device agent in Go for automated self-registration and heartbeat monitoring across station terminals. 
+            Implemented Firebase Cloud Messaging for push notifications, PDF/Excel report generation, and a multi-environment CI/CD pipeline 
+            with self-hosted GitHub Actions runners. Managed self-hosted infrastructure with Docker, Caddy reverse proxy, and PostgreSQL.
+          </p>
+          <Tags tags={[
+            "TypeScript",
+            "Next.js",
+            "React",
+            "Bun",
+          ]} />
+          <Tags tags={[
+            "Elysia",
+            "PostgreSQL",
+            "Prisma",
+            "JWT",
+          ]} />
+          <Tags tags={[
+            "Go",
+            "Firebase",
+            "Docker",
+            "Zustand",
+          ]} />
+          <Tags tags={[
+            "SWR",
+            "Recharts",
+            "Zod",
+            "Radix UI",
+          ]} />
+        </div>
+      </div>
+      <div className="card group mt-3">
+        <div className="card-overlay" />
         <div className="mt-[6px] text-xs sm:col-span-2">Oktober 2025 - Desember 2025</div>
         <div className="sm:col-span-6">
           <NavLink href="https://www.linkedin.com/company/pt-bank-rakyat-indonesia-persero-tbk/">
@@ -99,25 +140,8 @@ const Experience = () => {
           ]} />
         </div>
       </div>
-      <div className="card group mt-3">
-        <div className="card-overlay" />
-        <div className="mt-[6px] text-xs sm:col-span-2">Feb 2019 - Apr 2019</div>
-        <div className="sm:col-span-6">
-          <NavLink href="https://www.linkedin.com/company/daarulquran/">
-            <div className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
-            Front End Web Developer - PPPA Daarul Qur'an
-          </NavLink>
-          <p className="mt-3 text-sm">
-            Develop and design web pages using JavaScript and Bootstrap
-          </p>
-          <Tags tags={[
-            "Javascript", 
-            "HTML", 
-            "CSS", 
-            "Bootstrap", 
-          ]} />
-        </div>
-      </div>
+
+
       <NavLink href="/resume.pdf" underline>
         View Full Resume
       </NavLink>
