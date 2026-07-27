@@ -107,7 +107,7 @@ const Experience = () => {
         </div>
       </div>
 
-      <NavLink href="/resume.pdf" underline>
+      <NavLink href="/CV_Ramadhani_Nur_Sarjito.pdf" underline>
         View Full Resume
       </NavLink>
     </section>
