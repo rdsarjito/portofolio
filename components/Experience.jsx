@@ -21,11 +21,13 @@ const Experience = () => {
           />
 
           <p className="mt-3 text-sm leading-relaxed text-slate-300">
-            Developed and maintained a comprehensive operational platform for Indonesia's high-speed railway (Whoosh), 
-            encompassing a web-based dashboard for real-time device monitoring, station management, and passenger flow analytics. 
-            Built a cross-platform device agent in Go for automated self-registration and heartbeat monitoring across station terminals. 
-            Implemented Firebase Cloud Messaging for push notifications, PDF/Excel report generation, and a multi-environment CI/CD pipeline 
-            with self-hosted GitHub Actions runners. Managed self-hosted infrastructure with Docker, Caddy reverse proxy, and PostgreSQL.
+            Managing transport service products — such as membership cards and vouchers — isn't just about sales. 
+            Every step from creation to customer use must be controlled and traceable. Previously, processes like card generation, 
+            distribution, and transaction validation were handled manually, making them slow, error-prone, and difficult to monitor. 
+            Two core products also needed to be managed within the same ecosystem: <span className="text-slate-200 font-medium">Frequent Whoosh Card (FWC)</span> as 
+            a membership program for regular commuters, and <span className="text-slate-200 font-medium">Vouchers</span> as a prepaid travel product. 
+            To address this, I helped build an integrated platform that manages both products end-to-end — from product creation 
+            and serial number generation, to stock distribution across locations, field transaction recording, and real-time validation and redemption.
           </p>
 
           <Tags tags={[
