@@ -37,26 +37,28 @@ const Experience = () => {
           ]} />
 
           {/* Reference */}
-          <div className="mt-4 flex flex-wrap items-baseline gap-x-2 gap-y-1 border-t border-slate-700/40 pt-3">
-            <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-600">ref</span>
-            <span className="text-[10px] text-slate-600">·</span>
-            <span className="whitespace-nowrap text-xs text-slate-400">Eko Budi</span>
-            <span className="text-[10px] text-slate-600">·</span>
-            <a
-              href="https://wa.me/6287885461923"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="whitespace-nowrap text-xs text-slate-500 transition-colors hover:text-teal-400"
-            >
-              0878-8546-1923
-            </a>
-            <span className="text-[10px] text-slate-600">·</span>
-            <a
-              href="mailto:eko.agustavia@kcic.co.id"
-              className="whitespace-nowrap text-xs text-slate-500 transition-colors hover:text-teal-400"
-            >
-              eko.agustavia@kcic.co.id
-            </a>
+          <div className="mt-4 flex items-start gap-3 border-t border-slate-700/40 pt-3">
+            <span className="mt-0.5 shrink-0 text-[9px] font-semibold uppercase tracking-widest text-slate-600">ref</span>
+            <div className="flex flex-col gap-0.5">
+              <span className="text-xs font-medium text-slate-400">Eko Budi</span>
+              <div className="flex flex-wrap items-center gap-x-2 gap-y-0">
+                <a
+                  href="https://wa.me/6287885461923"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[11px] text-slate-500 transition-colors hover:text-teal-400"
+                >
+                  0878-8546-1923
+                </a>
+                <span className="text-[10px] text-slate-700">·</span>
+                <a
+                  href="mailto:eko.agustavia@kcic.co.id"
+                  className="text-[11px] text-slate-500 transition-colors hover:text-teal-400"
+                >
+                  eko.agustavia@kcic.co.id
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -107,28 +109,30 @@ const Experience = () => {
           <Tags tags={[
             "TypeScript", "Next.js", "React", "Socket.IO", "Bun", 
             "Elysia", "MySQL", "JWT", "Zod", "React Query", "Zustand", "Recharts"
-             {/* Reference */}
-          <div className="mt-4 flex flex-wrap items-baseline gap-x-2 gap-y-1 border-t border-slate-700/40 pt-3">
-            <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-600">ref</span>
-            <span className="text-[10px] text-slate-600">·</span>
-            <span className="whitespace-nowrap text-xs text-slate-400">Aris Kurniawan</span>
-            <span className="text-[10px] text-slate-600">·</span>
-            <a
-              href="https://wa.me/628119476622"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="whitespace-nowrap text-xs text-slate-500 transition-colors hover:text-teal-400"
-            >
-              0811-9476-622
-            </a>
-            <span className="text-[10px] text-slate-600">·</span>
-            <a
-              href="mailto:arisjiratkurniawan@gmail.com"
-              className="whitespace-nowrap text-xs text-slate-500 transition-colors hover:text-teal-400"
-            >
-              arisjiratkurniawan@gmail.com
-            </a>
-          </div>        </div>
+          {/* Reference */}
+          <div className="mt-4 flex items-start gap-3 border-t border-slate-700/40 pt-3">
+            <span className="mt-0.5 shrink-0 text-[9px] font-semibold uppercase tracking-widest text-slate-600">ref</span>
+            <div className="flex flex-col gap-0.5">
+              <span className="text-xs font-medium text-slate-400">Aris Kurniawan</span>
+              <div className="flex flex-wrap items-center gap-x-2 gap-y-0">
+                <a
+                  href="https://wa.me/628119476622"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[11px] text-slate-500 transition-colors hover:text-teal-400"
+                >
+                  0811-9476-622
+                </a>
+                <span className="text-[10px] text-slate-700">·</span>
+                <a
+                  href="mailto:arisjiratkurniawan@gmail.com"
+                  className="text-[11px] text-slate-500 transition-colors hover:text-teal-400"
+                >
+                  arisjiratkurniawan@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
